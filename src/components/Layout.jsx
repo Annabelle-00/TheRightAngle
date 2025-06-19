@@ -40,7 +40,7 @@ export const Layout = ({ children, isDarkMode, toggleDarkMode }) => {
         </motion.div>
         <Link to="/" className="text-decoration-none">
           <motion.h1 
-            className="text-6xl sm:text-7xl md:text-8xl font-extrabold tracking-tight hero-gradient text-transparent bg-clip-text py-2 cursor-pointer"
+            className="text-6xl sm:text-7xl md:text-8xl font-extrabold tracking-tight hero-gradient text-white py-2"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.1, ease: "backOut" }}
